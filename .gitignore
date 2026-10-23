@@ -1,0 +1,44 @@
+# Local configuration and credentials
+.env
+.env.*
+*.local.xcconfig
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.mobileprovision
+*.provisionprofile
+AuthKey_*.p8
+*.keychain
+*.keychain-db
+
+# Xcode output and personal state
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcresult
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+.build/
+Pods/
+Carthage/Build/
+
+# Local tools and editor state
+.DS_Store
+.idea/
+.vscode/
+.agents/
+.codex/
+.skills/
+.ai/
+.prompts/
+.cursor/
+.copilot/
+skills-lock.json
+*.prompt.md
+*.log
